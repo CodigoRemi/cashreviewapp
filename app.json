@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "CashReviewApp",
+    "slug": "cashreviewapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codigoremiorg.cashreviewapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codigoremiorg.cashreviewapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7254b966-cd2d-4efb-be29-19d4bda96664"
+      }
+    },
+    "owner": "codigoremi-org",
+    "updates": {
+      "url": "https://u.expo.dev/7254b966-cd2d-4efb-be29-19d4bda96664"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
